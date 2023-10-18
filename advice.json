@@ -1,7 +1,7 @@
 {
 	"//" : "Copyright 2023 Neen S.p.A.",
 	
-	"Team Agility" : {
+	"Process" : {
 		"Advice" : "A great place to start is by reading the Agile Manifesto. Scrum is a popular Agile software development framework which is a great approach when setting up a new team if there isn't already an existing way of working. Kanban is an evolutionary method for improving a team's agility, and works well when the team already has an existing way of working in place.",
 		"Links" : [
 			{
@@ -63,7 +63,7 @@
 			}
 		]
 	},
-	"Automation" : {
+	"Provisioning" : {
 		"Advice" : "Automation is critical to shortening the lead time for software delivery. If quality and speed are to be transformed, automation is essential. Automation enables environments to be provisioned and configured identically every time. Automation enables application code to be built, tested, delivered, provisioned and configured easily. Automation also enables environments to be monitored and incidents (including security threats) to be responded to based upon a set of rules. Automation drives consistency, enforces quality, removes wastage and delivers speed; it is the technical backbone to any DevOps implementation.",
 		
 		"ReadMore" : "The general rule of thumb is to automate anything that you’re doing more than once, however there are diminishing returns that will be experienced and it produces a new code base to maintain. Surprisingly, adopting a clear and well communicated automation strategy is not necessarily key to successful adoption and buy-in from engineering teams, although it is certainly valuable to have one. The question is more about timing than anything else, but in certain areas (e.g. Infrastructure as Code) automation is one of those things that generally builds pace organically. Start small with engineering led experimentation as, generally, engineers see the value in automation. We suggest that you: <p />- Encourage automation of the day to day (something that may save 20 minutes but is done several times per week, as once the benefits are seen, automating things becomes addictive) <p />- Catalyse discussions of automation tooling choices via communities of interest, these will eventually generate standards in coding, practices, processes and principles <p />- Continuously review automation as part of retrospectives <p />- Communicate automation successes and failures (both can be learned from!) <p />- Follow good engineering practices: for example, maintain automation code in a version controlled code repository <p />When making the case for automation, it is not necessarily about the cost saving (almost certainly not based upon the status quo). For example, the business case for test automation based upon the current release frequency may not make sense, but if that release frequency shifts to once per day it would do. It’s not just about release frequency either, automation significantly reduces wastage within the system, measuring the mean time to recovery (MTTR) and the number of defects in production will display the benefit of automation here. Ultimately the benefits of automation are speed and consistency.",
@@ -71,7 +71,7 @@
 		"Links" : [
 			{
 				"Type" : "Book",
-				"Text" : "Get started with Red Hat Ansible Tower",
+				"Text" : "Get started with Red Hat Ansible Automation Platform",
 				"Href" : "https://www.ansible.com/resources/ebooks/get-started-with-red-hat-ansible-tower"
 			},
 			{
@@ -480,7 +480,7 @@
 			}
 		]
 	},
-	"Organisation Structure" : {
+	"Team" : {
 		"Advice" : "For successful DevOps adoption, the organisation needs to be structured into teams that are both cross-functional and autonomous.",
 		
 		"ReadMore" : "Many organisational structures are characterised by and aligned to functions (specialisms) rather than the outcomes that are needed for the business. The issue with function-based organisational structures is that they tend to create a lot of handovers between teams; things get thrown over the fence for the next team to deal with, generally by complaining about the quality from the previous team and using up all the time of the team after them. This doesn't support the development of a collaborative culture. Improve the organisational structure and both quality and flow will improve.",
@@ -544,7 +544,7 @@
 			}
 		]
 	},
-	"Incentivisation" : {
+	"Architecture" : {
 		"Advice" : "For DevOps adoption personal incentives are less effective at driving the desired behaviors than team incentives. Within a DevOps approach, one wishes to drive ownership of the product/outcomes and the understanding that those successfully adopting DevOps will \"live and die\" as a team; this aligns earnings with collaboration, not competition.",
 		
 		"ReadMore" : "<p />Incentives are just about the most controversial topic for any organisation, and there are many possible approaches. Making significant changes to incentive structures, especially in large organisations, can be hugely disruptive, controversial and, in some cases, require agreement from unions/employee forums, thus there is no perfect implementation we can recommend. Our advice, however, is to take a fresh look at the existing incentives within the organisation and ensure that they are aligned as much as possible to the outcomes that the organisation is looking to achieve through DevOps. <p />Some organisations have removed all personal incentives in favour of team only incentives, others are constrained within a traditional incentive framework/structure, but can make simple changes like giving weight to actions that support others within the team. What is to be avoided is giving a bonus to the person that turns up at 3:30am and gets a system back up again, rather than rewarding the person who identifies and fixes the issue at its root cause so it doesn’t fall over again; this is an alarmingly common flaw in may incentive structures. <p />Question whether incentives can be used effectively to drive not only DevOps adoption, but tighter unity and collaboration within the DevOps teams themselves. Failing to do so frequently results in team members sticking to their tribes, e.g. \"I'm a Dev, I'm not doing Ops work/going on call.\"",

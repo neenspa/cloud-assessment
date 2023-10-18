@@ -17,40 +17,40 @@
 				"Type": "Option",
 				"QuestionText": "Project managers coordinate between all the different teams working on the same project, and the teams have highly specialised responsibilities.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Our development teams is not focused on achieving small, defined objectives quickly and then moving immediately to the next one.",
+				"QuestionText": "Our development teams is Falset focused on achieving small, defined objectives quickly and then moving immediately to the next one.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 0},
-					{"Answer": "No", "Score": 5}
+					{"Answer": "True", "Score": 0},
+					{"Answer": "False", "Score": 5}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We don't like a lot of up-front planning, spent into detailed documenting each step of a project before it even begins.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Project managers plan define complexity and efforts for the tasks and assign it to a team member without interacions",
 				"Answers": [
-					{"Answer": "Yes", "Score": 0},
-					{"Answer": "No", "Score": 7}
+					{"Answer": "True", "Score": 0},
+					{"Answer": "False", "Score": 7}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Each team contain a mix of members whose different areas of expertise cover the full spectrum of skills needed for crafting a releasable increment",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -63,40 +63,40 @@
 				"Type": "Option",
 				"QuestionText": "We have product roadmaps spanning months or even years into the future. Our releases typically happen every six months to one year, sometimes even longer.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "There is pressure to deliver features, fast, and releases happen on a regular planned basis. For example, ‘We’ll Feature X in two months, Feature Y in four months and Feature Z in six months’—with no deviation from the schedule.",
+				"QuestionText": "There is pressure to deliver features, fast, and releases happen on a regular planned basis. For example, ‘We’ll Feature X in two months, Feature Y in four months and Feature Z in six months’—with False deviation from the schedule.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We release large sets of related features all at once as comprehensive updates.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our releases simply can't be splitted in small chunk",
 				"Answers": [
-					{"Answer": "Yes", "Score": 0},
-					{"Answer": "No", "Score": 7}
+					{"Answer": "True", "Score": 0},
+					{"Answer": "False", "Score": 7}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our releases are usually small-scale iterative changes to existing features/services.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -107,42 +107,42 @@
 		"Questions": [
 			{
 				"Type": "Option",
-				"QuestionText": "All decisions are made by managers, and teams must seek permission before changing any part of the project plan, no matter how small.",
+				"QuestionText": "All decisions are made by managers, and teams must seek permission before changing any part of the project plan, False matter how small.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Applications are developed as several large components, with one team per component fully and vertically responsible for the build.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We have separate teams of specialists to handle different areas: design, architecture, security, testing, etc. When our team’s piece of a project is finished, we hand it off to the next team.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our teams are mixed: We have developers, QA/testing, someone with server experience, etc. all in one group. We don’t talk to other teams very much since our teams are meant to be self-sufficient and independent.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "We have separate teams of specialists to handle different areas: design, architecture, security, testing, etc. When our team’s piece of a project is finished, we just autonomously release it.",
+				"QuestionText": "We have separate teams of specialists to handle different areas: design, architecture, security, testing, etc. When our team’s piece of a project is finished, we just autoFalsemously release it.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -155,40 +155,40 @@
 				"Type": "Option",
 				"QuestionText": "We do all our planning up front, and then hand off to teams for execution. Managers handle the collaboration and communication between our teams.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "A team will work on one small, defined project and deliver it in two to four weeks. If a new feature request comes in the middle of a delivery cycle, we may or may not be able to add it in.",
+				"QuestionText": "A team will work on one small, defined project and deliver it in two to four weeks. If a new feature request comes in the middle of a delivery cycle, we may or may Falset be able to add it in.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "If a new feature request comes in the middle of a delivery cycle, we have to wait for the next cycle to plan for and incorporate it.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our process help us to mange urgent incoming request in the middle of delivery cycle",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "If we can’t coordinate or fix an issue on the last day or two of a production cycle, we can’t ship—so when a bug or some other problem pops up it’s hard to do anything more than a quick fix. Following up to address an issue in more depth requires a dedicated sprint so we can focus on it.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -199,42 +199,42 @@
 		"Questions": [
 			{
 				"Type": "Option",
-				"QuestionText": "Our system is very big. Few people understand the whole thing. We fear the domino effect: If you change something, you have to be very careful because it could break something else.",
+				"QuestionText": "Our system is very big. Few people understand the whole thing. We fear the domiFalse effect: If you change something, you have to be very careful because it could break something else.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Our application(s) is(are) a single monolith and we release them in block",
+				"QuestionText": "Our application(s) is(are) a single moFalselith and we release them in block",
 				"Answers": [
-					{"Answer": "Yes", "Score": 0},
-					{"Answer": "No", "Score": 1}
+					{"Answer": "True", "Score": 0},
+					{"Answer": "False", "Score": 1}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Our application(s) is(are) divided into components, probably no more than five or six, communicating through networking.",
+				"QuestionText": "Our application(s) is(are) divided into components, probably False more than five or six, communicating through networking.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "When we deliver, everything is delivered together, all ready on the same day and at a uniformly high level of quality.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "The scope of an app in development is defined by the deployment schedule. Each feature or piece of functionality is broken down into deliverable chunks that fit into the schedule.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -247,40 +247,40 @@
 				"Type": "Option",
 				"QuestionText": "We have some simple automation, like scripts, for alerting large-scale issues and outages in the field. We find out about many smaller problems from user reports.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Our systems have full and continuous monitoring, and our Ops team spends lots of time checking on alerts. A lot of time, our system alerts turn out to be nothing.",
+				"QuestionText": "Our systems have full and continuous monitoring, and our Ops team spends lots of time checking on alerts. A lot of time, our system alerts turn out to be Falsething.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "When problems arise, we have to open each server to understand what happened because we don’t have central logs or tracing. Then we fix it manually: someone from Operations logs into a production server and follows a preset procedure.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Some of our system update processes are fully automated and patches can be applied quickly. No human needed!",
+				"QuestionText": "Some of our system update processes are fully automated and patches can be applied quickly. False human needed!",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Some of our system update processes are fully automated and patches can be applied quickly—but a human still has to initialise the process.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -293,40 +293,40 @@
 				"Type": "Option",
 				"QuestionText": "We move to production without make automated testing. We use our staging env to test new features internally.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our delivery process includes some test automation and automated build, but outside of final integration. In an emergency, we can make manual updates to the production codebase.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We don't like to make changes to our production code, even emergency ones, because there are so many dependencies. Change is risky. Once we release a software version all changes have to wait for the next version roll out.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "We are heroes...no space for tests!",
+				"QuestionText": "We are heroes...False space for tests!",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "New functionality requests typically can be accommodated within a few weeks, if they are urgent.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -339,40 +339,40 @@
 				"Type": "Option",
 				"QuestionText": "Operations team is in charge of provisioning, period. You have to write a ticket to provision a machine—engineers can’t self-service.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "A machine can be provisioned (possibly even autoprovisioned) in hours, or maybe a day or two, and the process is fully automated by Ops.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Developers write applications, and specify what they will need to run successfully in production (OS, libraries, dependent tools). The Ops team manually configures the production machines to meet the machine dependencies the Dev team specified.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "Provisioning is a mix of automation and manual work. Any task taking longer than a week to provision to VM breaks the production cycle, so is a nonstarter.",
+				"QuestionText": "Provisioning is a mix of automation and manual work. Any task taking longer than a week to provision to VM breaks the production cycle, so is a Falsenstarter.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "In our teams there's an Ops specialist. It is charged to provision the systems required by the application(s)",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -385,40 +385,40 @@
 				"Type": "Option",
 				"QuestionText": "We build our systems with IaC and CI/CD pipelines, so if something go wrong we can bring things up in few minutes.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We don’t use physical servers—we have VMs. We also have some instances in the cloud, which we manage manually.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 3},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 3},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "A data centre failure is just about the worst disaster we can imagine.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "We don't use VMs or physical servers, but all our workloads are managed by a Container Orchestrator",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Provisioning infrastructure is a mix of automation and manual work, so a new VM can take a couple of days to set up.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]
@@ -431,40 +431,40 @@
 				"Type": "Option",
 				"QuestionText": "Our team design and develop applications and systems following shift-left, security and privacy by design principles",
 				"Answers": [
-					{"Answer": "Yes", "Score": 10},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 10},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our CI system implement mechanisms to detect vulnerability and generate a report, but at the moment we haven't a well defined process to apply remediations.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 5},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 5},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our teams don't include a security specialist",
 				"Answers": [
-					{"Answer": "Yes", "Score": 0},
-					{"Answer": "No", "Score": 3}
+					{"Answer": "True", "Score": 0},
+					{"Answer": "False", "Score": 3}
 				]
 			},
 			{
 				"Type": "Option",
-				"QuestionText": "We moved to public cloud, security is not a concern anymore for us!",
+				"QuestionText": "We moved to public cloud, security is Falset a concern anymore for us!",
 				"Answers": [
-					{"Answer": "Yes", "Score": 1},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 1},
+					{"Answer": "False", "Score": 0}
 				]
 			},
 			{
 				"Type": "Option",
 				"QuestionText": "Our CI system implement mechanisms to detect vulnerability and generate a report, and we have a plan to apply remediations as quick as possible.",
 				"Answers": [
-					{"Answer": "Yes", "Score": 7},
-					{"Answer": "No", "Score": 0}
+					{"Answer": "True", "Score": 7},
+					{"Answer": "False", "Score": 0}
 				]
 			}
 		]

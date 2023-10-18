@@ -2,7 +2,7 @@
 /* Copyright 2023 Neen S.p.A.*/
 
 $isForm = FALSE;
-$activePage = 'About';
+$activePage = 'Home';
 
 require 'header.php';
 
@@ -59,11 +59,11 @@ function RenderLinkedInLink($URL)
 						<i class="far fa-chart-bar fa-stack-1x"></i>
 					</span>
 					<h2>Understand Where You Are</h2>
-					<p class="text-justify">Our set of carefully designed questions across 7 different areas will help
+					<p class="text-justify">Our set of carefully designed questions across 10 different areas will help
 						you quickly establish your current level of DevOps maturity.</p>
 					<p class="text-justify">You can view the results online as well as downloading them in CSV format
 						for more detailed analysis.</p>
-				</div><!-- /.col-lg-4 -->
+				</div><!-- /.col-lg-6 -->
 
 				<div class="col-lg-6">
 					<span class="fa-stack fa-5x mb-4">
@@ -74,18 +74,17 @@ function RenderLinkedInLink($URL)
 					<p class="text-justify">For each area we have identified a range of free or commercially available
 						books, videos, blog posts, white papers and websites that will help you take the next steps on
 						your DevOps journey.</p>
-				</div><!-- /.col-lg-4 -->
+				</div><!-- /.col-lg-6 -->
 
 
 			</div><!-- /.row -->
-		</div><!-- /.col-lg-4 -->
-		<div class="row"></div>
-		<div class="row">
-			<div class="col-lg-12">
-				<p align="center"><em>We do not harvest your data and we will not share your results with anyone
-						else.</em></p>
+			<div class="row">
+				<div class="col-lg-12">
+					<p align="center"><em>We do not harvest your data and we will not share your results with anyone
+							else.</em></p>
+				</div>
 			</div>
-		</div>
+		</div><!-- /.col-lg-6 -->
 
 	</div><!-- /.col-lg-8 -->
 

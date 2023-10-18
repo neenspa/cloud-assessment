@@ -1,0 +1,73 @@
+/* CSS Document */
+@charset "UTF-8";
+.border-primary {
+    border-color: orange!important;
+}
+.bg-primary {
+    background-color: #f84900!important;
+}
+.btn-primary {
+    background: orange;
+    border-color: #6C6F70;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.btn-primary:hover {
+    background: #f84900;
+    border-color: #6C6F70;
+}
+
+.btn-hover{
+    color: #f84900;
+}
+
+.bg-gradient-secondary {
+    background: #6C6F70!important;
+    border-color: #6C6F70;
+}
+
+.text-primary {
+    color: orange!important;
+
+}
+
+a{
+    color: #6C6F70;
+}
+
+p{
+    color: #6C6F70;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #6C6F70;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700');
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    color: white!important;
+}
+
+.bg-dark {
+    background-color: white!important;
+}
+
+.navbar-dark .navbar-brand{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    padding: 12px 25px
+}
+
+.navbar-nav > li > a {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    padding: 12px 25px
+}

@@ -7,6 +7,7 @@
 	
 	// Create an array to represent the navbar buttons
 	$navBar = array (
+		'Home' => array ('Url' => '/', 'Type' => 'Standard' ),
 		'Questionaire' => array ('Url' => 'section-' . SectionNameToURLName($survey->sections[0]['SectionName']), 'Type' => 'Standard'),
 		'Sections' => array ('Type' => 'Dropdown' ),
 				// Sub-menus for each page are added here (see below)
@@ -15,8 +16,7 @@
 				'Download CSV' => array('Url' => 'devops-maturity-csv.php', 'Type' => 'Standard'),
 				'Divider1' => array('Type' =>'Divider') ) ),
 				// Sub-menus for detailed reports are added here, see below
-		'Resources' => array ('Url' => 'resources', 'Type' => 'Standard' ),
-		'About' => array ('Url' => 'about', 'Type' => 'Standard' ) );
+		'Resources' => array ('Url' => 'resources', 'Type' => 'Standard' ));
 	
 	// Add the sub-menus for each page of the survey, and also for the detailed reports
 	foreach ($survey->sections as $section)
@@ -167,14 +167,15 @@
 		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="fontawesome/css/all.css" rel="stylesheet">
 
-		<title>DevOps Maturity Assessment</title>
+		<title class="title">DevOps Maturity Assessment</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
 		<style>
 			#bigwrapper {
-				background-image: Url('backdrop.jpg');
+				background-image: Url('bg-page.webp');
 				background-repeat: no-repeat;
 				background-position: top center;
 				background-attachment: fixed;
