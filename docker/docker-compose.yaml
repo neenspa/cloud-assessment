@@ -1,0 +1,18 @@
+services:
+  web:
+    image: webdevops/php-apache:alpine-php5
+    healthcheck:
+      test: ["CMD", "ping localhost"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+    ports:
+      - target: 80
+        published: 8080
+        protocol: tcp
+        mode: host
+    volumes:
+      - ../:/app/
+    environment:
+      - WEB_DOCUMENT_INDEX=about.php

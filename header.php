@@ -1,6 +1,5 @@
 <?php 
-	/* Copyright 2018 Atos SE and Worldline
-	 * Licensed under MIT (https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE) */
+	/* Copyright 2023 Neen S.p.A.*/
 
 	require 'survey.php'; 
 	

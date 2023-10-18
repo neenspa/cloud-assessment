@@ -1,6 +1,5 @@
 {
-	"//" : "Copyright 2018 Atos SE and Worldline",
-	"//" : "Licensed under MIT (https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE)",
+	"//" : "Copyright 2023 Neen S.p.A.",
 	
 	"Team Agility" : {
 		"Advice" : "A great place to start is by reading the Agile Manifesto. Scrum is a popular Agile software development framework which is a great approach when setting up a new team if there isn't already an existing way of working. Kanban is an evolutionary method for improving a team's agility, and works well when the team already has an existing way of working in place.",
