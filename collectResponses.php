@@ -83,7 +83,7 @@
 	
 	require 'footer.php';
 	
-	function renderQuestion($question) { 
+	function renderQuestion($question, $index) { 
 		
 		?>
 		

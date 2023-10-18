@@ -1,5 +1,5 @@
 services:
-  web:
+  devops-ass-tool:
     image: webdevops/php-apache:alpine-php5
     healthcheck:
       test: ["CMD", "ping localhost"]

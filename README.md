@@ -4,9 +4,10 @@
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their DevOps journey and to help them identify next steps for further improvement.
 
-## Installation
+## Run
 
-This is a PHP application that should run on any server that supports PHP 5.5 or higher with Mod_Rewrite enabled. We have also provided an [app.yaml](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/app.yaml) for deployment into [Google App Engine](https://cloud.google.com/appengine/).
+This is a PHP application that can run on any server that supports PHP 5.5 with Mod_Rewrite enabled.
+Anyway the application in shipped with a [Dockerfile](docker/Dockerfile) to be deployed on production servers and a [docker-compose](docker/docker-compose.yaml) file to be launched locally for development purposes.
 
 ## Technical Overview
 

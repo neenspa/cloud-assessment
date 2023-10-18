@@ -68,13 +68,13 @@
 						'.</p><p>The 3 areas where you have the most potential to improve are listed below, together with links to resources that you may find useful.</p>';
 			break;
 		case 5:
-			$preAmble = '<p>The responses to the questionaire show that the 2 areas in which you are strongest are ' . array_keys($resultsSummary)[0] . 
-						' and ' . array_keys($resultsSummary)[1] . '.</p>' .
+			$preAmble = '<p>The responses to the questionaire show that the 2 areas in which you are strongest are <b>' . array_keys($resultsSummary)[0] . 
+						'</b> and <b>' . array_keys($resultsSummary)[1] . '.</b></p>' .
 						'<p>The 3 areas where you have the most potential to improve are listed below, together with links to resources that you may find useful.</p>';
 			break;
 		default:
-			$preAmble = '<p>The responses to the questionaire show that the 3 areas in which you are strongest are ' . array_keys($resultsSummary)[0] . 
-						', ' . array_keys($resultsSummary)[1] . ' and ' . array_keys($resultsSummary)[2] . '.</p>' .
+			$preAmble = '<p>The responses to the questionaire show that the 3 areas in which you are strongest are <b>' . array_keys($resultsSummary)[0] . 
+						'</b>, <b>' . array_keys($resultsSummary)[1] . '</b> and <b>' . array_keys($resultsSummary)[2] . '.</b></p>' .
 						'<p>The 3 areas where you have the most potential to improve are listed below, together with links to resources that you may find useful.</p>';
 			break;
 	}
