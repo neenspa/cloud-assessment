@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700');
 body{
     font-family: 'Montserrat', sans-serif !important;
-    color: #7e8486!important;
+    color: #6C6F70!important;
 }
 
 a{
@@ -41,7 +41,7 @@ p{
 }
 
 .bg-gradient-secondary {
-    background: #f849001f!important;
+    background: #f849001a!important;
     border-color: #6C6F70;
 }
 
@@ -55,7 +55,7 @@ p{
 }
 
 .bg-dark {
-    background-color: #f849001f!important;
+    background-color: #f84a001f!important;
 }
 
 .navbar-dark .navbar-brand{
@@ -75,5 +75,9 @@ p{
 }
 
 .card-header{
-    background: #6C6F70af;
+    background: #f84a00af;
+}
+
+.jumbotron {
+    background: #f84a00af;
 }
