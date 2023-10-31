@@ -7,8 +7,8 @@ HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD [ "pi
 COPY . /app
 
 VOLUME [ "/opt/docker/etc/httpd/ssl" ]
-VOLUME [ "/opt/docker/etc/httpd/vhost.ssl.conf" ]
-VOLUME [ "/opt/docker/etc/httpd/vhost.conf" ]
+# VOLUME [ "/opt/docker/etc/httpd/vhost.ssl.conf" ]
+# VOLUME [ "/opt/docker/etc/httpd/vhost.conf" ]
 
 EXPOSE 80
 EXPOSE 443
