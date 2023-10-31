@@ -1,4 +1,4 @@
-FROM webdevops/php-apache:alpine-php5
+FROM webdevops/php-apache:8.2-alpine
 
 ENV WEB_DOCUMENT_INDEX=about.php
 
