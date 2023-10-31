@@ -7,8 +7,7 @@
 ?> 
  
 	<div class="container-fluid">
-	<form action="test.php" method="POST" onsubmit="<?=$_SESSION['email']=$_POST['email']?>">
-  
+	<form action="test.php" method="POST" onsubmit="<?php if($_SESSION['email'] != null){$_SESSION=$_POST['email'];}?>">
 <?php
 
 	// Determine which section of the assessment we are showing
@@ -41,9 +40,10 @@
 	<div class="row">
 		<div class="col-xl-9 col-lg-11 m-2 pb-4 rounded text-center text-light mx-auto">
 			<h3><?=$survey->sections[$sectionIndex]['SectionName']?></h3>
-		
-
-<?php	
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: <?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>%;" aria-valuenow="<?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>" aria-valuemin="0" aria-valuemax="100"><?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>%</div>
+		</div>
+			<?php	
 	// Render all the question for the current section
 	foreach ($survey->sections[$sectionIndex]['Questions'] as $index=>$question)
 	{	
@@ -83,6 +83,10 @@
 	
 	require 'footer.php';
 	
+	function countSections($sects, $currentSection){
+		return round(($currentSection*100)/$sects, 2,PHP_ROUND_HALF_EVEN);
+	}
+
 	function renderQuestion($question, $index) { 
 		
 		?>
