@@ -46,7 +46,12 @@ deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   environment: production
   image: ubuntu
+  before_script:
+    - apt update -y
+    - apt install openss-client -y
+    - mkdir -p $HOME/.ssh
+    - echo $SSH_PRIVATE_KEY > $HOME/.ssh/key
   script:
     - echo "Deploying application..."
-    - ssh -i  $SSH_PRIVATE_KEY $SSH_USER@SERVER_ENDPOINT:/$HOME/$SSH_USER/deploy.sh
+    - ssh -i  $HOME/.ssh/key $SSH_USER@SERVER_ENDPOINT:$HOME/$SSH_USER/deploy.sh
     - echo "Application successfully deployed."
