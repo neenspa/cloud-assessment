@@ -1,6 +1,6 @@
 services:
   devops-ass-tool:
-    image: webdevops/php-apache:alpine-php5
+    image: webdevops/php-apache:8.2-alpine
     healthcheck:
       test: ["CMD", "ping localhost"]
       interval: 1m30s

@@ -12,9 +12,9 @@
 		'Sections' => array ('Type' => 'Dropdown' ),
 				// Sub-menus for each page are added here (see below)
 		'Results' => array ('Url' => 'results', 'Type' => 'Standard' ),
-		'Detailed Reports' => array ('Type' => 'Dropdown', 'Items' => array (
-				'Download CSV' => array('Url' => 'devops-maturity-csv.php', 'Type' => 'Standard'),
-				'Divider1' => array('Type' =>'Divider') ) ),
+		// 'Detailed Reports' => array ('Type' => 'Dropdown', 'Items' => array (
+		// 		'Download CSV' => array('Url' => 'devops-maturity-csv.php', 'Type' => 'Standard'),
+		// 		'Divider1' => array('Type' =>'Divider') ) ),
 				// Sub-menus for detailed reports are added here, see below
 		'Resources' => array ('Url' => 'resources', 'Type' => 'Standard' ));
 	
@@ -149,9 +149,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Open Graph info -->
-		<meta property="og:title" content="DevOps Maturity Assessment" />
-		<meta property="og:description" content="This online DevOps Maturity Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your DevOps journey." />
-		<meta property="og:site_name" content="DevOps Maturity Assessment" />
+		<meta property="og:title" content="Cloud Maturity Assessment" />
+		<meta property="og:description" content="This online Cloud Maturity Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Cloud journey." />
+		<meta property="og:site_name" content="Cloud Maturity Assessment" />
 		<meta property="og:image" content="<?=GetBaseURL()?>/og-image.jpg" />
 		<meta property="og:image:width" content="1680" />
 		<meta property="og:image:height" content="870" />
@@ -170,7 +170,7 @@
 		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="fontawesome/css/all.css" rel="stylesheet">
 
-		<title class="title">DevOps Maturity Assessment</title>
+		<title class="title">Cloud Maturity Assessment</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
 		<style>
@@ -195,7 +195,7 @@
 	<body id="bigwrapper">
 
 	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group" ">
-		<a href="about" class="navbar-brand">DevOps Maturity Assessment</a>
+		<a href="about" class="navbar-brand">Cloud Maturity Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 		</button>

@@ -39,10 +39,10 @@ function RenderLinkedInLink($URL)
 
 			<section class="jumbotron text-center bg-dark border-primary border">
 				<div class="container">
-					<h1 class="jumbotron-heading">Improve Your DevOps Capability</h1>
-					<p class="lead">This online DevOps Maturity Assessment questionnaire will help you understand your
+					<h1 class="jumbotron-heading">Improve Your Cloud Capability</h1>
+					<p class="lead">This online Cloud Maturity Assessment questionnaire will help you understand your
 						current strengths and weaknesses and then recommend resources that can support you in taking the
-						next steps on your DevOps journey.</p>
+						next steps on your Cloud journey.</p>
 					<p>
 						<a href="<?= 'section-' . SectionNameToURLName($survey->sections[0]['SectionName']) ?>"
 							class="btn btn-primary">Start the Questionnaire</a>
@@ -60,7 +60,7 @@ function RenderLinkedInLink($URL)
 					</span>
 					<h2>Understand Where You Are</h2>
 					<p class="text-justify">Our set of carefully designed questions across 10 different areas will help
-						you quickly establish your current level of DevOps maturity.</p>
+						you quickly establish your current level of Cloud maturity.</p>
 					<p class="text-justify">You can view the results online as well as downloading them in CSV format
 						for more detailed analysis.</p>
 				</div><!-- /.col-lg-6 -->
@@ -73,17 +73,17 @@ function RenderLinkedInLink($URL)
 					<h2>Identify Your Next Steps</h2>
 					<p class="text-justify">For each area we have identified a range of free or commercially available
 						books, videos, blog posts, white papers and websites that will help you take the next steps on
-						your DevOps journey.</p>
+						your Cloud journey.</p>
 				</div><!-- /.col-lg-6 -->
 
 
 			</div><!-- /.row -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-lg-12">
 					<p align="center"><em>We do not harvest your data and we will not share your results with anyone
 							else.</em></p>
 				</div>
-			</div>
+			</div> -->
 		</div><!-- /.col-lg-6 -->
 
 	</div><!-- /.col-lg-8 -->

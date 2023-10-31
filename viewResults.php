@@ -23,7 +23,7 @@
 		$resultsSummary = $survey->GenerateResultsSummary();
 		// Sort into the order they should be displayed on the spider diagram
 		uasort( $resultsSummary, function($a, $b) { return $a['SpiderPos'] - $b['SpiderPos']; } );	
-		$chartTitle = 'DevOps Maturity by Area';
+		$chartTitle = 'Cloud Maturity by Area';
 	}
 	else
 	{
@@ -82,7 +82,6 @@
 ?>
 	
 	<div class="container-fluid">
-		
 		<div class="row">
 			<div class="col-xl-9 col-lg-11 pb-0 rounded text-center text-light mx-auto">
 				<div class="rounded-top p-2 ml-sm-2 ml-xs-2 mt-2 mr-sm-2 mr-xs-2 border-primary border-top border-left border-right" style="opacity: 0.6; background-color: #000000;">

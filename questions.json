@@ -848,5 +848,14 @@
 				]
 			}
 		]
+	},
+	{
+		"SectionName": "Data",
+		"Questions": [
+			{
+				"Type": "Input",
+				"QuestionText": "Type your email below to recieve a resume of the questionaire"
+			}
+		]
 	}
 ]

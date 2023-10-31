@@ -7,7 +7,7 @@
 ?> 
  
 	<div class="container-fluid">
-	<form action="test.php" method="POST">
+	<form action="test.php" method="POST" onsubmit="<?=$_SESSION['email']=$_POST['email']?>">
   
 <?php
 
@@ -103,15 +103,27 @@
 								case 'Banner':
 									echo $question['QuestionText'];
 									break;
+								case 'Input':
+									renderEmailInput($question);
+									break;
 							} ?>
-		
 					</div>
 				</div>
-				
-		
 		<?php
 	}
 	
+	function renderEmailInput($question){
+		?>
+			<div class="custom-control col-md-4"></div>
+			<div class="custom-control col-md-4">
+				<label for="emailLabel" name="emailLabel"></label>
+				<input type="email" class="input-group input-group-sm mb-3" id="email" name="email" placeholder="Enter your email" required>
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="custom-control col-md-4"></div></div>
+		<?php
+	}
+
 	function renderCheckboxes($question) { 
 		
 		// We render a hidden field for each checkbox to enable us to recognise if chckboxes have been unchecked
@@ -136,5 +148,3 @@
 	}
 	
 ?>	
-
-	

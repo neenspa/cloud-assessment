@@ -19,6 +19,10 @@ Class Survey
 		$this->sections = &$_SESSION['Sections'];
 		$this->SetupAnswerIDs(); // TODO: This should only be called first time we setup the Sections sesssion variable
 		$this->SaveResponses();
+		$request_body = file_get_contents('php://input');
+		$_SESSION['email']=$request_body;
+		// BELOW TO GENERATE AND PRINT JSON OF THE QUESTIONAIRE
+		// echo json_encode($_SESSION);
 	}
 	
 	public function GenerateResultsSummary()
@@ -156,12 +160,6 @@ Class Survey
 				if ( $question['Type'] != 'Banner')
 				{
 					$question['ID'] = 'S' . ($sectionIndex + 1) . '-Q' . ($questionIndex + 1);
-					
-					if ( !isset($question['Answers']) )
-					{
-						// Add default yes/no answers
-						$question['Answers'] = array( array('Answer' => 'Yes', 'Score' => 1), array('Answer' => 'No', 'Score' => 0) );
-					}
 					
 					foreach ($question['Answers'] as $answerIndex=>&$answer)
 					{
