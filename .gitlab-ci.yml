@@ -45,7 +45,8 @@ build-job:       # This job runs in the build stage, which runs first.
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   environment: production
+  image: ubuntu
   script:
     - echo "Deploying application..."
-    - ssh -i  $SSH_PRIVATE_KEY $SSH_USER@SERVER_ENDPOINT:/deploy.sh
+    - ssh -i  $SSH_PRIVATE_KEY $SSH_USER@SERVER_ENDPOINT:/$HOME/$SSH_USER/deploy.sh
     - echo "Application successfully deployed."
