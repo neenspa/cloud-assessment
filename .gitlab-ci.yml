@@ -22,7 +22,7 @@ stages:          # List of stages for jobs, and their order of execution
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
-  image: 
+  image: docker:dind
   before_script:
     - docker login -u ${DOCKER_USER} -p ${DOCKER_PASS} ${HARBOR_URL}/${DOCKER_IMAGE_NAME}
   script:
