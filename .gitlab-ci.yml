@@ -22,11 +22,9 @@ stages:          # List of stages for jobs, and their order of execution
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
-  image: node:lts
+  image: docker:20.10.16
   services:
-  - name: docker:dind
-    entrypoint: ["env", "-u", "DOCKER_HOST"]
-    command: ["dockerd-entrypoint.sh"]
+    - docker:20.10.16-dind
   script:
     - echo "Compiling the code..."
     - docker login -u ${DOCKER_USER} -p ${DOCKER_PASS} ${HARBOR_URL}/${DOCKER_IMAGE_NAME}
