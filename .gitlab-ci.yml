@@ -35,10 +35,12 @@ build-job:       # This job runs in the build stage, which runs first.
       command: ["dockerd-entrypoint.sh"]
   before_script:
     - mkdir -p $HOME/.docker
+    - echo $DOCKER_AUTH_CONFIG
     - echo $DOCKER_AUTH_CONFIG > $HOME/.docker/config.json
+    - ls -lart $HOME/.docker/config.json
   script:
     - echo "Compiling the code..."
-    - docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${HARBOR_URL}/${DOCKER_IMAGE_NAME}
+    # - docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${HARBOR_URL}/${DOCKER_IMAGE_NAME}
     - docker build -t ${HARBOR_URL}/${DOCKER_IMAGE_NAME}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} .
     - docker push ${HARBOR_URL}/${DOCKER_IMAGE_NAME}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
     - echo "Compile complete."
