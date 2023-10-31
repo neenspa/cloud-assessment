@@ -47,4 +47,5 @@ deploy-job:      # This job runs in the deploy stage.
   environment: production
   script:
     - echo "Deploying application..."
+    - ssh -i  $SSH_PRIVATE_KEY $SSH_USER@SERVER_ENDPOINT:/deploy.sh
     - echo "Application successfully deployed."
