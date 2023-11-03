@@ -189,7 +189,7 @@
 	<body id="bigwrapper">
 		<div class="linee-sx"></div>
 <div class="container plr-0">
-		<nav class="navbar navbar-dark navbar-expand-md form-group" ">
+		<nav class="navbar navbar-dark navbar-expand-md form-group">
 		<a href="about" class="navbar-brand"><img src="assets/ionic-ios-cloudy.png" class="cloud-nav">Cloud Maturity Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
