@@ -278,6 +278,9 @@ h1 {
         font-size: 32px;
         line-height: 36px;
       }
+      .pos-next, .pos-prev {
+        width: 49%;
+      }
   }
 
 
@@ -323,4 +326,5 @@ h1 {
       .item-form {
         margin: 0px 13px 15px 13px;
       }
+
   }
