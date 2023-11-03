@@ -175,27 +175,22 @@
 		<script src="js/jquery-3.3.1.min.js"></script>		
 		<style>
 			#bigwrapper {
-				background-image: Url('bg-page.webp');
+				background-image: Url('assets/bg-page-v2.png');
 				background-repeat: no-repeat;
-				background-position: top center;
+				background-position: top right;
 				background-attachment: fixed;
-				backgroun-size: cover;
-				background-color: RGB(2, 2, 1);
-				padding-top: 70px;
-			}
-		
-			@media (max-width: 355px) { 
-				#bigwrapper { padding-top: 100px; }
-			}
-		
+				background-size: cover;
+				background-color: #FFFFFF;
+			}		
 		</style>
 		
 	</head>
 	
 	<body id="bigwrapper">
-
-	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group" ">
-		<a href="about" class="navbar-brand">Cloud Maturity Assessment</a>
+		<div class="linee-sx"></div>
+<div class="container plr-0">
+		<nav class="navbar navbar-dark navbar-expand-md form-group" ">
+		<a href="about" class="navbar-brand"><img src="assets/ionic-ios-cloudy.png" class="cloud-nav">Cloud Maturity Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -205,4 +200,5 @@
 			</ul>
 		</div>
 	</nav>	
+</div>
 	

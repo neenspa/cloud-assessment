@@ -6,7 +6,7 @@
 	require 'header.php';
 ?> 
  
-	<div class="container-fluid">
+	<div class="container">
 	<form action="test.php" method="POST" onsubmit="<?php if($_SESSION['email'] != null){$_SESSION=$_POST['email'];}?>">
 <?php
 
@@ -38,8 +38,8 @@
 ?>
 
 	<div class="row">
-		<div class="col-xl-9 col-lg-11 m-2 pb-4 rounded text-center text-light mx-auto">
-			<h3><?=$survey->sections[$sectionIndex]['SectionName']?></h3>
+		<div class="col-12 mx-auto text-center">
+			<h1><?=$survey->sections[$sectionIndex]['SectionName']?></h1>
 		<div class="progress">
 			<div class="progress-bar" role="progressbar" style="width: <?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>%;" aria-valuenow="<?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>" aria-valuemin="0" aria-valuemax="100"><?=countSections(sizeof($survey->sections)-1, $sectionIndex)?>%</div>
 		</div>
@@ -54,25 +54,28 @@
 		</div>
 
 	</div>
-	
+	<div class="container">
 	<div class="row form-group">
 	<div class="text-center col-lg-12">
-		<div class="btn-group btn-group-justified">
+		<div class="btn-group-prev-next">
 			<?php if ($previousSection != '') { ?>
-			<div class="btn-group">
-				<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$previousSection?>');">Previous</button>
+			<div class="btn-group pos-prev">
+				<button type="submit" class="btn btn-primary prev" onclick="$('form').attr('action', 'section-<?=$previousSection?>');">Prev</button>
 			</div>
 			<?php } ?>
 			<?php if ($nextSection != '') { ?>
-			<div class="btn-group" role="group">
-				<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$nextSection?>');">Next</button>
+			<div class="btn-group pos-next" role="group">
+				<button type="submit" class="btn btn-primary next" onclick="$('form').attr('action', 'section-<?=$nextSection?>');">Next</button>
 			</div>
 			<?php } ?>
-		</div>
-		<!-- Show results button if we are on the final section -->
+			<!-- Show results button if we are on the final section -->
 		<?php if ($nextSection == '') { ?>
-			<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'results');">View Results</button>
+			<div class="btn-group pos-next" role="group">
+			<button type="submit" class="btn btn-primary next" onclick="$('form').attr('action', 'results');">View Results</button>
+		</div>
 		<?php } ?>
+		</div>
+		</div>
 	</div>
 	</div>
 	
@@ -91,11 +94,11 @@
 		
 		?>
 		
-				<div class="card mt-4  ml-sm-2 ml-xs-0 mr-sm-2 mr-xs-0 text-left bg-dark border-primary border">
+				<div class="box-form">
 					<?php if ($question['Type']!='Banner') {?>
-					<h6 class="card-header"><?=$question['QuestionText']?></h6>
+					<h6 class="header-text"><?=$question['QuestionText']?></h6>
 					<?php } ?>
-					<div class="card-body pt-1 pb-1 bg-gradient-secondary">
+					<div class="form-item">
 						<?php 
 							switch ($question['Type']) {
 								case 'Option':
@@ -144,7 +147,7 @@
 	function renderOptions($question) { 
 		
 		foreach ($question['Answers'] as $index=>$answer) { ?>
-			<div class="custom-control custom-radio my-2">
+			<div class="custom-radio item-form">
 			<input type="radio" class="custom-control-input" id="<?=$answer['ID']?>" value="<?=$answer['ID']?>" name="<?=$question['ID']?>" <?=$answer['Value']?>>
 			<label class="custom-control-label" for="<?=$answer['ID']?>"><?=$answer['Answer']?></label>
 			</div>

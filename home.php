@@ -29,51 +29,44 @@ function RenderLinkedInLink($URL)
 	</a>
 	<?php
 }
-
 ?>
-
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
-		<div class="col-xl-9 col-lg-11 m-2 pb-4 rounded text-center text-light mx-auto">
-
-
-			<section class="jumbotron text-center bg-dark border-primary border">
-				<div class="container">
-					<h1 class="jumbotron-heading">Improve Your Cloud Capability</h1>
-					<p class="lead">This online Cloud Maturity Assessment questionnaire will help you understand your
+		<div class="col-12">
+<div class="box-head">
+		<h1>Improve Your Cloud Capability</h1>
+					<p class="text-top">This online Cloud Maturity Assessment questionnaire will help you understand your
 						current strengths and weaknesses and then recommend resources that can support you in taking the
 						next steps on your Cloud journey.</p>
 					<p>
 						<a href="<?= 'section-' . SectionNameToURLName($survey->sections[0]['SectionName']) ?>"
 							class="btn btn-primary">Start the Questionnaire</a>
 					</p>
-				</div>
-			</section>
-
+					<p class="txt-cta">We do not harvest your data and we will not share your results with anyone else.</p>
+		
+</div>
 			<!-- Three columns of text below the jumbotron -->
 			<div class="row">
 
 				<div class="col-lg-6">
-					<span class="fa-stack fa-5x mb-4">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="far fa-chart-bar fa-stack-1x"></i>
-					</span>
-					<h2>Understand Where You Are</h2>
-					<p class="text-justify">Our set of carefully designed questions across 10 different areas will help
+				<div class="title-icon"><img src="assets/icon-1.png" class="icon-h2"></div>
+				<div class="box-icon"><h2>Understand Where You Are</h2></div>
+				<div class="pos-text-box-icon">
+					<p class="box-text">Our set of carefully designed questions across 10 different areas will help
 						you quickly establish your current level of Cloud maturity.</p>
-					<p class="text-justify">You can view the results online as well as downloading them in CSV format
-						for more detailed analysis.</p>
+					<p class="box-text">You can view the results online as well as downloading them in CSV format
+						for more detailed analysis.</p></div>
 				</div><!-- /.col-lg-6 -->
 
 				<div class="col-lg-6">
-					<span class="fa-stack fa-5x mb-4">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="fas fa-shoe-prints fa-stack-1x"></i>
-					</span>
-					<h2>Identify Your Next Steps</h2>
-					<p class="text-justify">For each area we have identified a range of free or commercially available
+					
+					<div class="title-icon"><img src="assets/icon-2.png" class="icon-h2"></div>
+					<div class="box-icon">
+					<h2>Identify Your Next Steps</h2></div>
+					<div class="pos-text-box-icon">
+					<p class="box-text">For each area we have identified a range of free or commercially available
 						books, videos, blog posts, white papers and websites that will help you take the next steps on
-						your Cloud journey.</p>
+						your Cloud journey.</p></div>
 				</div><!-- /.col-lg-6 -->
 
 
